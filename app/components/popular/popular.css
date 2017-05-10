@@ -1,0 +1,52 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ul{ 
+    padding: 0;
+}
+li{
+ list-style-type: none
+}
+.language{
+    display: flex;
+    justify-content: center;
+}
+.language li{
+    font-weight: bold;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.popular-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.popular-item{
+    margin: 20px;
+    text-align: center;
+}
+.popular-rank{
+    font-size: 20px;
+    margin: 10px;
+}
+.space-list-items{
+    margin-bottom: 7px;
+}
+.avatar{
+    width: 150px;
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+    color: #d0021b;
+}
+.nav{
+    display: flex;
+}
+.active {
+    font-weight: bold;
+}
+.nav li {
+    margin-right: 15px;
+}
